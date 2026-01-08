@@ -7,5 +7,5 @@ use Src\Admin\User\Domain\Entities\User;
 interface UserRepositoryInterface {
 
     public function UserById($id): User | Null;
-    public function Save(USer $user);
+    public function Save(User $user);
 }
